@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maciek/Studia/ARKO/projekt_x86/build",
+  "command": "/usr/bin/cc   -g -std=gnu11 -o CMakeFiles/julia.dir/SetJulia.c.o -c /home/maciek/Studia/ARKO/projekt_x86/SetJulia.c",
+  "file": "/home/maciek/Studia/ARKO/projekt_x86/SetJulia.c"
+}
+]

@@ -1,0 +1,3 @@
+/home/maciek/Studia/ARKO/projekt_x86/CMakeFiles/julia.dir
+/home/maciek/Studia/ARKO/projekt_x86/CMakeFiles/edit_cache.dir
+/home/maciek/Studia/ARKO/projekt_x86/CMakeFiles/rebuild_cache.dir
