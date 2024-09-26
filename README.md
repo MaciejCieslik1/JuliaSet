@@ -99,15 +99,13 @@ Move the view of the fractal.
 
 Zoom Controls:
 Change the size of the fractal.
-   - - (minus): Zoom out
+   - -(minus): Zoom out
    - = (equals): Zoom in
 
 Exit: 
 Press Esc to close the application.
 
-
 For more info about Julia's Set, click [HERE](https://en.wikipedia.org/wiki/Julia_set). 
-
 
 ## 📁 Project Structure
 
