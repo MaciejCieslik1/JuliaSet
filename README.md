@@ -20,7 +20,7 @@ The project was transferred from my academic account on GitLab.
 
 1. Install required libraries on your system:
    
-    - For **Ubuntu** or **Debian-based** systems:
+  - For **Ubuntu** or **Debian-based** systems:
     ```sh
     sudo apt update
     sudo apt install cmake liballegro5-dev liballegro5-dev
