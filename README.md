@@ -21,50 +21,62 @@ The project was transferred from my academic account on GitLab.
 1. Install required libraries on your system:
    
   - For **Ubuntu** or **Debian-based** systems:
+    
     ```sh
     sudo apt update
     sudo apt install cmake liballegro5-dev liballegro5-dev
     ```
+   
   - For **Fedora** or **Red Hat-based** systems:
+    
     ```sh
     sudo dnf install cmake allegro-devel allegro-font-devel
     ```
+    
   - For **macOS** using Homebrew:
+    
     ```sh
     brew install cmake allegro
     ```
 
 2. Clone repository:
+   
    ```sh
    git clone https://github.com/MaciejCieslik1/JuliaSet.git
    ```
 
-4. Navigate to the project **JuliaSet** directory:
+3. Navigate to the project **JuliaSet** directory:
+   
     ```sh
     cd JuliaSet
     ```
 
-5. Create **build** directory:
+4. Create **build** directory:
+   
     ```sh
     mkdir build
     ```
 
-6. Navigate to the project **build** directory:
+5. Navigate to the project **build** directory:
+   
     ```sh
     cd build
     ```
 
-7. Generate necessary makefiles in the **build** directory:
+6. Generate necessary makefiles in the **build** directory:
+    
     ```sh
     cmake ..
     ```
 
-8. Compile program:
+7. Compile program:
+    
     ```sh
     make
     ```
 
-9. Run the program:
+8. Run the program:
+   
     ```sh
     ./julia
     ```
