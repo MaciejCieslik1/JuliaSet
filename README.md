@@ -99,7 +99,7 @@ Move the view of the fractal.
 
 Zoom Controls:
 Change the size of the fractal.
-   - - (minus): Zoom out
+   - -(minus): Zoom out
    - = (equals): Zoom in
 
 Exit: 
