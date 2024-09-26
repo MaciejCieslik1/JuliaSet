@@ -19,7 +19,7 @@ The project was transferred from my academic account on GitLab.
 ## 💾 Installation
 
 1. Install required libraries on your system:
-   - For **Ubuntu** or **Debian-based** systems:
+- For **Ubuntu** or **Debian-based** systems:
     ```sh
     sudo apt update
     sudo apt install cmake liballegro5-dev liballegro5-dev
@@ -37,28 +37,28 @@ The project was transferred from my academic account on GitLab.
    ```sh
    git clone https://github.com/MaciejCieslik1/JuliaSet.git
    ```
-    
+
 4. Navigate to the project **JuliaSet** directory:
     ```sh
     cd JuliaSet
     ```
-    
+
 5. Create **build** directory:
     ```sh
     mkdir build
     ```
-    
+
 6. Navigate to the project **build** directory:
     ```sh
     cd build
     ```
-    
+
 7. Generate necessary makefiles in the **build** directory:
     ```sh
     cmake ..
     ```
 
-7. Compile program:
+8. Compile program:
     ```sh
     make
     ```
