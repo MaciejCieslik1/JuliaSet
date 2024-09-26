@@ -11,11 +11,11 @@ The project was transferred from my academic account on GitLab.
 ## ✅ Requirements
 
 1. **Software requirements**:
-   C11 or newer
+   - C11 or newer
 
 2. **Libraries used**:
-   Cmake 3.25.1
-   Allegro 5.2.8
+   - Cmake 3.25.1
+   - Allegro 5.2.8
 
 ## 💾 Installation
 
