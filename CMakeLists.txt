@@ -1,17 +1,27 @@
 cmake_minimum_required(VERSION 3.12)
-project(Julia C ASM)
+project(JuliaSet C CXX ASM_NASM)
 
+# Set language standards
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# https://stackoverflow.com/questions/28241611/cmake-uses-nasm-for-linking-which-fails
+# Enable NASM for assembly
 enable_language(ASM_NASM)
-set(CMAKE_ASM_NASM_LINK_EXECUTABLE "ld <FLAGS> <CMAKE_ASM_NASM_LINK_FLAGS> <LINK_FLAGS> <OBJECTS>  -o <TARGET> <LINK_LIBRARIES>")
 
-# Set the path to the Allegro library
-set(ALLEGRO_INCLUDE_DIR "/usr/include/x86_64-linux-gnu")
-set(ALLEGRO_LIBRARIES "-lallegro_font -lallegro")
+# Find Allegro5 libraries using pkg-config
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(ALLEGRO5 REQUIRED allegro-5 allegro_font-5)
 
-# Add the executable target
+# Include directories and link directories for Allegro
+include_directories(${ALLEGRO5_INCLUDE_DIRS})
+link_directories(${ALLEGRO5_LIBRARY_DIRS})
+
+# Set NASM assembly flags
+set(CMAKE_ASM_NASM_FLAGS "-f elf64")
+
+# Add the executable with C++, C, and Assembly source files
 add_executable(julia SetJulia.c SetJulia.h SetJulia.asm)
-target_include_directories(julia PRIVATE ${ALLEGRO_INCLUDE_DIR}) # Include directories for Allegro
-target_link_libraries(julia PRIVATE ${ALLEGRO_LIBRARIES}) # Link Allegro libraries
+
+# Link the Allegro libraries
+target_link_libraries(julia ${ALLEGRO5_LIBRARIES})

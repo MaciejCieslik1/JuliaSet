@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/julia.dir/SetJulia.c.o CMakeFiles/julia.dir/SetJulia.asm.o -o julia  -lallegro_font -lallegro 
