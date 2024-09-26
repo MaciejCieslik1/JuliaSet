@@ -83,6 +83,29 @@ This game was created for "Computer Architecture" course during my first year of
     ```
 
 ## 🎯 Usage
+Arrow Keys: 
+Adjust the real and imaginary parts of the complex constant **C**.
+   - Left Arrow: Decrease cRealcReal
+   - Right Arrow: Increase cRealcReal
+   - Up Arrow: Increase cImaginarycImaginary
+   - Down Arrow: Decrease cImaginarycImaginary
+
+W/A/S/D Keys: 
+Move the view of the fractal.
+   - W: Move up
+   - A: Move left
+   - S: Move down
+   - D: Move right
+
+Zoom Controls:
+Change the size of the fractal.
+   - - (minus): Zoom out
+   - = (equals): Zoom in
+
+Exit: 
+Press Esc to close the application.
+
+
 For more info about Julia's Set, click [HERE](https://en.wikipedia.org/wiki/Julia_set). 
 
 
