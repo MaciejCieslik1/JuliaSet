@@ -82,6 +82,10 @@ This game was created for "Computer Architecture" course during my first year of
     ./julia
     ```
 
+## 🎯 Usage
+For more info about Julia's Set, click [HERE](https://en.wikipedia.org/wiki/Julia_set). 
+
+
 ## 📁 Project Structure
 
 ```bash
