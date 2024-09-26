@@ -84,7 +84,11 @@ The project was transferred from my academic account on GitLab.
 ## 📁 Project Structure
 
 ```bash
-
+JuliaSet/   # Contains all project files and directories
+│
+├── build/       # Contains makefiles and files generated automatically
+│
+└── screenshots/ # screenshots
 ```
 
 ## 📜 License
