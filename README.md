@@ -2,7 +2,7 @@
 
 
 ## 📜 Description
-The **JuliaSet** program is a hybrid project developed in C and assembly language. It utilizes the Allegro graphics library for rendering and displaying fractal visualizations. 
+The **JuliaSet** program is a hybrid project developed in C and x86 assembly language. It utilizes the Allegro graphics library for rendering and displaying fractal visualizations. 
 
 ## 📝 Note
 
